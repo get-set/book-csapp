@@ -1,3 +1,118 @@
-# CSAPP
+## Official code examples (complete set)
 
-《深入理解计算机系统》学习笔记、代码、习题。
+> Downloaded from http://csapp.cs.cmu.edu/3e/code.html
+>
+> Contains the complete set of source files, header files, and Makefiles.
+
+The CS:APP3e has numerous examples of C code that are explicitly referenced by pairs of annotated horizontal bars. This page provides you with the original copies of these files. For each file, we list the chapters that reference it and the number of references to that file within the chapter.
+
+### Code examples
+
+- - code/
+    - conc/
+      - [badcnt.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/badcnt.c) [chap 12 (1 ref) ]
+      - [ctime_ts.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/ctime_ts.c) [chap 12 (1 ref) ]
+      - [echo_cnt.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/echo_cnt.c) [chap 12 (1 ref) ]
+      - [echoserverp.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/echoserverp.c) [chap 12 (1 ref) ]
+      - [echoservers.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/echoservers.c) [chap 12 (4 refs) ]
+      - [echoservert.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/echoservert.c) [chap 12 (1 ref) ]
+      - [echoservert_pre.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/echoservert_pre.c) [chap 12 (1 ref) ]
+      - [hello.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/hello.c) [chap 12 (1 ref) ]
+      - [hellobug.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/hellobug.c) [chap 12 (1 ref) ]
+      - [norace.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/norace.c) [chap 12 (1 ref) ]
+      - [psum-array.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/psum-array.c) [chap 12 (1 ref) ]
+      - [psum-local.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/psum-local.c) [chap 12 (1 ref) ]
+      - [psum-mutex.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/psum-mutex.c) [chap 12 (2 refs) ]
+      - [race.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/race.c) [chap 12 (1 ref) ]
+      - [rand.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/rand.c) [chap 12 (1 ref) ]
+      - [rand_r.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/rand_r.c) [chap 12 (1 ref) ]
+      - [sbuf.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/sbuf.c) [chap 12 (1 ref) ]
+      - [sbuf.h](http://csapp.cs.cmu.edu/3e/ics3/code/conc/sbuf.h) [chap 12 (1 ref) ]
+      - [select.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/select.c) [chap 12 (1 ref) ]
+      - [sharing.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/sharing.c) [chap 12 (1 ref) ]
+      - [tfgets-main.c](http://csapp.cs.cmu.edu/3e/ics3/code/conc/tfgets-main.c) [chap 12 (1 ref) ]
+    - data/
+      - [show-bytes.c](http://csapp.cs.cmu.edu/3e/ics3/code/data/show-bytes.c) [chap 2 (1 ref) ]
+    - ecf/
+      - [counterprob.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/counterprob.c) [chap 8 (1 ref) ]
+      - [fork.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/fork.c) [chap 8 (1 ref) ]
+      - [forkprob0.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob0.c) [chap 8 (1 ref) ]
+      - [forkprob1.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob1.c) [chap 8 (1 ref) ]
+      - [forkprob2.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob2.c) [chap 8 (1 ref) ]
+      - [forkprob3.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob3.c) [chap 8 (1 ref) ]
+      - [forkprob4.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob4.c) [chap 8 (1 ref) ]
+      - [forkprob5.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob5.c) [chap 8 (1 ref) ]
+      - [forkprob6.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob6.c) [chap 8 (1 ref) ]
+      - [forkprob7.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob7.c) [chap 8 (1 ref) ]
+      - [forkprob8.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/forkprob8.c) [chap 8 (1 ref) ]
+      - [hello-asm64.sa](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/hello-asm64.sa) [chap 8 (1 ref) ]
+      - [kill.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/kill.c) [chap 8 (1 ref) ]
+      - [procmask1.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/procmask1.c) [chap 8 (1 ref) ]
+      - [procmask2.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/procmask2.c) [chap 8 (1 ref) ]
+      - [restart.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/restart.c) [chap 8 (1 ref) ]
+      - [setjmp.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/setjmp.c) [chap 8 (1 ref) ]
+      - [shellex.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/shellex.c) [chap 8 (3 refs) ]
+      - [sigint.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/sigint.c) [chap 8 (1 ref) ]
+      - [sigintsafe.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/sigintsafe.c) [chap 8 (1 ref) ]
+      - [signal1.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/signal1.c) [chap 8 (1 ref) ]
+      - [signal2.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/signal2.c) [chap 8 (1 ref) ]
+      - [signalprob0.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/signalprob0.c) [chap 8 (1 ref) ]
+      - [sigsuspend.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/sigsuspend.c) [chap 8 (1 ref) ]
+      - [waitforsignal.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/waitforsignal.c) [chap 8 (1 ref) ]
+      - [waitpid1.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/waitpid1.c) [chap 8 (1 ref) ]
+      - [waitpid2.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/waitpid2.c) [chap 8 (1 ref) ]
+      - [waitprob0.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/waitprob0.c) [chap 8 (1 ref) ]
+      - [waitprob1.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/waitprob1.c) [chap 8 (1 ref) ]
+      - [waitprob3.c](http://csapp.cs.cmu.edu/3e/ics3/code/ecf/waitprob3.c) [chap 8 (1 ref) ]
+    - include/
+      - [csapp.h](http://csapp.cs.cmu.edu/3e/ics3/code/include/csapp.h) [chap 10 (1 ref) ]
+    - intro/
+      - [hello.c](http://csapp.cs.cmu.edu/3e/ics3/code/intro/hello.c) [chap 1 (1 ref) ]
+    - io/
+      - [cpfile.c](http://csapp.cs.cmu.edu/3e/ics3/code/io/cpfile.c) [chap 10 (1 ref) ]
+      - [cpstdin.c](http://csapp.cs.cmu.edu/3e/ics3/code/io/cpstdin.c) [chap 10 (1 ref) ]
+      - [readdir.c](http://csapp.cs.cmu.edu/3e/ics3/code/io/readdir.c) [chap 10 (1 ref) ]
+      - [statcheck.c](http://csapp.cs.cmu.edu/3e/ics3/code/io/statcheck.c) [chap 10 (1 ref) ]
+    - link/
+      - [addvec.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/addvec.c) [chap 7 (1 ref) ]
+      - [dll.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/dll.c) [chap 7 (1 ref) ]
+      - [elfstructs.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/elfstructs.c) [chap 7 (2 refs) ]
+      - interpose/
+        - [int.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/interpose/int.c) [chap 7 (1 ref) ]
+        - [malloc.h](http://csapp.cs.cmu.edu/3e/ics3/code/link/interpose/malloc.h) [chap 7 (1 ref) ]
+        - [mymalloc.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/interpose/mymalloc.c) [chap 7 (3 refs) ]
+      - [m.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/m.c) [chap 7 (1 ref) ]
+      - [main-relo.d](http://csapp.cs.cmu.edu/3e/ics3/code/link/main-relo.d) [chap 7 (1 ref) ]
+      - [main.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/main.c) [chap 7 (1 ref) ]
+      - [main2.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/main2.c) [chap 7 (1 ref) ]
+      - [multvec.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/multvec.c) [chap 7 (1 ref) ]
+      - [prog-exe.d](http://csapp.cs.cmu.edu/3e/ics3/code/link/prog-exe.d) [chap 7 (1 ref) ]
+      - [sum.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/sum.c) [chap 7 (1 ref) ]
+      - [swap.c](http://csapp.cs.cmu.edu/3e/ics3/code/link/swap.c) [chap 7 (1 ref) ]
+    - mem/
+      - matmult/
+        - [mm.c](http://csapp.cs.cmu.edu/3e/ics3/code/mem/matmult/mm.c) [chap 6 (6 refs) ]
+      - mountain/
+        - [mountain.c](http://csapp.cs.cmu.edu/3e/ics3/code/mem/mountain/mountain.c) [chap 6 (1 ref) ]
+    - netp/
+      - [echo.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/echo.c) [chap 11 (1 ref) ]
+      - [echoclient.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/echoclient.c) [chap 11 (1 ref) ]
+      - [echoserveri.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/echoserveri.c) [chap 11 (1 ref) ]
+      - [hostinfo.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/hostinfo.c) [chap 11 (1 ref) ]
+      - [netpfragments.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/netpfragments.c) [chap 11 (3 refs) ]
+      - tiny/
+        - cgi-bin/
+          - [adder.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/tiny/cgi-bin/adder.c) [chap 11 (1 ref) ]
+        - [tiny.c](http://csapp.cs.cmu.edu/3e/ics3/code/netp/tiny/tiny.c) [chap 11 (7 refs) ]
+    - opt/
+      - [combine.h](http://csapp.cs.cmu.edu/3e/ics3/code/opt/combine.h) [chap 5 (1 ref) ]
+      - [vec.c](http://csapp.cs.cmu.edu/3e/ics3/code/opt/vec.c) [chap 5 (2 refs) ]
+      - [vec.h](http://csapp.cs.cmu.edu/3e/ics3/code/opt/vec.h) [chap 5 (1 ref) ]
+    - src/
+      - [csapp.c](http://csapp.cs.cmu.edu/3e/ics3/code/src/csapp.c) [chap 8 (2 refs) chap 10 (6 refs) chap 11 (2 refs) chap A (5 refs) ]
+    - vm/
+      - malloc/
+        - [memlib.c](http://csapp.cs.cmu.edu/3e/ics3/code/vm/malloc/memlib.c) [chap 9 (1 ref) ]
+        - [memlib.h](http://csapp.cs.cmu.edu/3e/ics3/code/vm/malloc/memlib.h) [chap 9 (1 ref) ]
+        - [mm.c](http://csapp.cs.cmu.edu/3e/ics3/code/vm/malloc/mm.c) [chap 9 (5 refs) ]
+        - [mm.h](http://csapp.cs.cmu.edu/3e/ics3/code/vm/malloc/mm.h) [chap 9 (1 ref) ]
